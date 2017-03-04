@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "96874838260",
+    "firebase_url": "https://alquick-9eab4.firebaseio.com",
+    "project_id": "alquick-9eab4",
+    "storage_bucket": "alquick-9eab4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96874838260:android:f4ff63ef416d930a",
+        "android_client_info": {
+          "package_name": "com.putallazmilton.alquick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96874838260-o6rsd8d4e28483icdb6tcffi62ls7tmv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.putallazmilton.alquick",
+            "certificate_hash": "9930A2D316A1F1B8B96101C1C14F6E6DAF4D4F1E"
+          }
+        },
+        {
+          "client_id": "96874838260-2v51ulphpfql7sgki261kl1g0n3qmhu9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.putallazmilton.alquick",
+            "certificate_hash": "9930A2D316A1F1B8B96101C1C14F6E5DAF4D4F1E"
+          }
+        },
+        {
+          "client_id": "96874838260-l0cu3vq1u8chtfs5qc6754qullfih821.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc6KTJ-mmTOMwLNs0kaCDAUrJ62_sLqwc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96874838260-l0cu3vq1u8chtfs5qc6754qullfih821.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

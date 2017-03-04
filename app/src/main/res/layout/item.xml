@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_height="300dp"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/tools"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    cardview:cardCornerRadius="8dp"
+    android:layout_centerHorizontal="true"
+
+
+    >
+
+
+    <LinearLayout android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/fl"
+        android:background="@color/blanco">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.9">
+
+            <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:id="@+id/imagen"
+            android:scaleType="centerCrop"
+
+
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="Usuario"
+
+            android:id="@+id/tvpropietario"/>
+
+
+        </RelativeLayout>
+
+
+
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+>
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/tipoalq"
+    android:textSize="20dp"
+    android:maxLength="60"
+    android:text="Hola"
+    android:layout_weight="0.5" />
+
+<!--<ImageButton
+    android:layout_width="0dp"
+    android:id="@+id/starbutton"
+    android:layout_weight="0.5"
+    android:src="@mipmap/heart"
+    android:layout_height="25dp"
+    android:background="#00ffffff"
+    android:onClick="onToggleStar"
+
+    />-->
+
+    <ToggleButton
+        android:id="@+id/heartbutton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:button="@drawable/heart"
+        android:text=""
+        android:background="@null"
+        android:layout_weight="0.5"/>
+
+</LinearLayout>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            android:id="@+id/idalqui"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

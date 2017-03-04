@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Camara"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogcamera"
+        android:drawableLeft="@mipmap/ic_camera_black_24dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Galeria"
+        android:id="@+id/dialoggalery"
+        android:drawableLeft="@mipmap/ic_collections_black_24dp"/>
+
+</LinearLayout>
