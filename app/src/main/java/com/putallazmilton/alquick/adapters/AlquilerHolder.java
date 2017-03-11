@@ -25,7 +25,7 @@ public class AlquilerHolder extends RecyclerView.ViewHolder {
         botonstar = (ToggleButton) itemView.findViewById(R.id.heartbutton);
         image = (ImageView) itemView.findViewById(R.id.imagen);
         tipoalq =(TextView) itemView.findViewById(R.id.tipoalq);
-        propietario = (TextView) itemView.findViewById(R.id.tvpropietario);
+
         id = (TextView) itemView.findViewById(R.id.idalqui);
 
     }
@@ -45,9 +45,7 @@ public class AlquilerHolder extends RecyclerView.ViewHolder {
         tipoalq.setText(text);
     }
 
-    public void setPropietario(String pro){
-        propietario.setText(pro);
-    }
+
 
     public void setId(String idd){
         id.setText(idd);

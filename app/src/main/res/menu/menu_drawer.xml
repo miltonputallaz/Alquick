@@ -3,13 +3,21 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/item_cuenta"
+            android:id="@+id/item_inicio"
             android:checked="true"
-            android:title="Mi cuenta" />
 
-        <item
-            android:id="@+id/item_cerrarsesion"
-            android:title="Cerrar sesion" />
+            android:title="Inicio" />
+
     </group>
+
+    <item android:title="Nose">
+
+        <group>
+            <item
+                android:title="Cerrar sesion"
+                android:id="@+id/btn_cerrar_sesion"/>
+
+        </group>
+    </item>
 
 </menu>

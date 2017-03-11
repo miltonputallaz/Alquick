@@ -126,7 +126,7 @@ public class homeFragment extends Fragment {
             public void populateViewHolder(final AlquilerHolder alquilerHolder, final Alquiler alquiler, int position) {
 
                 key = adapter.getRef(position).getKey().toString();
-                alquilerHolder.setPropietario(alquiler.getPropietario());
+
                 alquilerHolder.setId(key);
 
                 databaseReference.child("likes").child(AccessToken.getCurrentAccessToken().getUserId()).child(alquilerHolder.getId().getText().toString()).addValueEventListener(new ValueEventListener() {

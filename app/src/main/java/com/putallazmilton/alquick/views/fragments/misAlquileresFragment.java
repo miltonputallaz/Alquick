@@ -81,7 +81,7 @@ public class misAlquileresFragment extends Fragment {
             @Override
             protected void populateViewHolder(final AlquilerHolder alquilerHolder, final Alquiler alquiler, int position) {
                 key = adapter.getRef(position).getKey().toString();
-                alquilerHolder.setPropietario(alquiler.getPropietario());
+
                 alquilerHolder.setId(key);
                 alquilerHolder.getBotonstar().setChecked(true);
                 alquilerHolder.itemView.setOnClickListener(new View.OnClickListener() {

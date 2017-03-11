@@ -32,15 +32,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentTop="true" />
 
-            <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
 
-            android:textStyle="bold"
-            android:textSize="25dp"
-            android:text="Usuario"
-
-            android:id="@+id/tvpropietario"/>
 
 
         </RelativeLayout>
